@@ -30,6 +30,51 @@
                 "map": null
             },
             {
+                "nom": "Château Landereau",
+                "couleur": "Blanc",
+                "appellation": "Entre-deux-Mers",
+                "millésime": "2023",
+                "cépages": ["Sauvignon Blanc", "Sémillon", "Sauvignon Gris", "Muscadelle"],
+                "tarif": 25,
+                "caractéristiques": ["Charnu", "Équilibré", "Fruité"],
+                "accords": ["Poisson", "Fruits de Mer", "Légumes Verts" ],
+                "certification": null,
+                "image": null,
+                "lieu": "33670 Sadirac",
+                "map": null
+            },
+            {
+                "nom": "Château La Tour Carnet",
+                "couleur": "Blanc",
+                "appellation": "Bordeaux",
+                "millésime": "2022",
+                "cépages": ["Sémillon", "Sauvignon Blanc"],
+                "tarif": 59,
+                "caractéristiques": ["Frais", "Dense", "Fruité", "Boisé"],
+                "accords": ["Poisson", "Fruits de Mer", "Cake/Quiche" ],
+                "certification": null,
+                "image": null,
+                "lieu": "33112 Saint-Laurent-Médoc",
+                "map": null
+            }            
+        ]
+    },
+        {"Vins Rouges" : [
+            {
+                "nom": "",
+                "couleur": "",
+                "appellation": "",
+                "millésime": "",
+                "cépages": ["", ""],
+                "tarif": ,
+                "caractéristiques": ["", "", ""],
+                "accords": ["", "", "" ],
+                "certification": null,
+                "image": null,
+                "lieu": "",
+                "map": null
+            },
+            {
                 "nom": "",
                 "couleur": "",
                 "appellation": "",
@@ -57,10 +102,6 @@
                 "lieu": "",
                 "map": null
             }
-        ]
-    },
-        {"Vins Rouges" : [
-
         ]
     },
         {"Vins Rosés" : [

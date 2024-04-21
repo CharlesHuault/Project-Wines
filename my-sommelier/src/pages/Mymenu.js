@@ -1,8 +1,8 @@
 import React from 'react';
-import Navigation from './Navigation';
-import '../styles/components/header.scss'
+import Navigation from '../components/Navigation';
 
-const Header = () => {
+
+const Mymenu = () => {
     return (
         <div className='Header'>
             <div className='Hello'>
@@ -13,4 +13,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Mymenu;

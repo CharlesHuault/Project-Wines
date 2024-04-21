@@ -6,12 +6,14 @@ import Error from './pages/Error';
 import Modifications from './pages/Modifications';
 import Navigation from './components/Navigation';
 import Login from './pages/Login';
+import Mymenu from './pages/Mymenu';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/mymenu" element={<Mymenu />} />
         <Route path="/definitions" element={<Definitions />} />
         <Route path="/modifications" element={<Modifications />} />
         <Route path="/account" element={<Navigation />} />

@@ -1,0 +1,17 @@
+.Navigation {
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+
+        a {
+            text-decoration: none;
+            color: var(--color-mediumgrey);
+        }
+    }
+}

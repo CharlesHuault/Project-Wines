@@ -1,10 +1,10 @@
 import React from 'react';
-import VisitorHeader from '../components/VisitorHeader';
+import Header from '../components/Header';
 
 const Home = () => {
     return (
         <div>
-            <VisitorHeader/>
+            <Header/>
         </div>
     );
 };

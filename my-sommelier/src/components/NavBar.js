@@ -5,7 +5,11 @@ import '../styles/components/navbar.scss'
 const NavBar = () => {
     return (
         <div className='navbar'>
-            <ul>
+            <ul className='isNotConnected'>
+                <NavLink to='/definitions'><li>Définitions</li></NavLink>
+            </ul>
+
+            <ul className='isConnected'>
                 <NavLink to='/' ><li>Ma Carte</li></NavLink>
                 <NavLink to='/definitions'><li>Définitions</li></NavLink>
                 <NavLink to='/modifications'><li>Modifications</li></NavLink>

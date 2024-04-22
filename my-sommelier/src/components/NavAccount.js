@@ -5,9 +5,12 @@ import { NavLink } from 'react-router-dom';
 const NavAccount = () => {
     return (
         <div className='navaccount'>
-            <ul>
-                <NavLink to='/account'><li>Mon Compte</li></NavLink>
+            <ul className='isNotConnected'>
                 <NavLink to='/login'><li>Connexion</li></NavLink>
+            </ul>
+            <ul className='isConnected'>
+                <NavLink to='/account'><li>Mon Compte</li></NavLink>
+                <NavLink to='/'><li>Déconnexion</li></NavLink>
             </ul>
         </div>
     );

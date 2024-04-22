@@ -1,14 +1,16 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
+import Header from '../components/Header';
+import SearchBlock from '../components/SearchBlock';
 
 
 const Mymenu = () => {
     return (
-        <div className='Header'>
-            <div className='Hello'>
-                <p>Bonjour nom_du_compte</p>
+        <div>
+            <Header/>
+            <div className='MyMenuBody'>
+                <SearchBlock/>
+
             </div>
-            <Navigation/>
         </div>
     );
 };

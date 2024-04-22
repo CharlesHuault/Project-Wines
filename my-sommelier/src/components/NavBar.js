@@ -10,7 +10,7 @@ const NavBar = () => {
             </ul>
 
             <ul className='isConnected'>
-                <NavLink to='/' ><li>Ma Carte</li></NavLink>
+                <NavLink to='/mymenu' ><li>Ma Carte</li></NavLink>
                 <NavLink to='/definitions'><li>Définitions</li></NavLink>
                 <NavLink to='/modifications'><li>Modifications</li></NavLink>
             </ul>

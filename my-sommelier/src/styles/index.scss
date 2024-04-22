@@ -3,7 +3,12 @@ body {
     --color-lightred: #402220;
     --color-darkblue: #08122B;
     --color-cream: #F9EFEE;
-    --color-lightgrey: #fafafa;
-    --color-mediumgrey: #eeeeee;
-    --color-darkgrey: #666666
+    --color-lightgrey: #e6dcdc;
+    --color-mediumgrey: #bcbcbc;
+    --color-darkgrey: #666666;
+
+
+
+    background-color: var(--color-lightgrey);
+    margin: auto;
 }

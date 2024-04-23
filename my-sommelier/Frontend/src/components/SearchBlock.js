@@ -36,13 +36,13 @@ const SearchBlock = () => {
 
                 </ul>
             </div>
-            <div className='Seeds'>
+            <div className='Grapes'>
                 <p>Cépages</p>
                 <ul>
 
                 </ul>
             </div>
-            <div className='Company'>
+            <div className='Pairing'>
                 <p>Accords</p>
                 <ul>
 

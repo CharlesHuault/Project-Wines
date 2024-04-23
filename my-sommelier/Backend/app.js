@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
+const wines = require ('./models/Wines')
+
 const app = express();
 
 mongoose.connect('mongodb+srv://chuault:U88sXW81dunhvkTC@cluster0.f3ofyxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
@@ -25,5 +27,4 @@ app.get("/", (req,res) => {
 
 
 module.exports = app;
-
-module.exports = app;   
+  

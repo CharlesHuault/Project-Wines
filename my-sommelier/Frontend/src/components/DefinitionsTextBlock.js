@@ -27,6 +27,16 @@ const DefinitionsTextBlock = () => {
                 <p>Vin dense en bouche. Souvent riche en tanins et en alcool, il a du corps, de la consistance et de la matière. Un blanc moelleux est charnu, par exemple.</p>
                 <h3>Charpenté</h3>
                 <p>Vin équilibré, puissant, robuste et souvent tannique</p>
+                <h3>Court en bouche</h3>
+                <p>Vin qui ne laisse aucune trace particulière après dégustation</p>
+                <h3>Dense</h3>
+                <p>Vin riche et concentré en couleur, saveurs et texture</p>
+                <h3>Doux</h3>
+                <p>Qualifie un vin sucré</p>
+                <h3>Dur</h3>
+                <p>A la fois astringent et acide, il est conseillé de le laisser vieillir plus longtemps</p>
+                <h3>Epais</h3>
+                <p>Vin très coloré et lourd en bouche</p>
                 <h3>Herbacé</h3>
                 <p>Cet adjectif péjoratif décrit un vin qui dégage un parfum végétal, souvent dû à un manque de maturité du raisin.</p>
                 <h3>Long en bouche</h3>
